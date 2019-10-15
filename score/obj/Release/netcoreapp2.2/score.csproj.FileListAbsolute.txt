@@ -1,0 +1,16 @@
+C:\Users\Mario Ramos\prueba\packen\score\score\bin\Release\netcoreapp2.2\score.deps.json
+C:\Users\Mario Ramos\prueba\packen\score\score\bin\Release\netcoreapp2.2\score.runtimeconfig.json
+C:\Users\Mario Ramos\prueba\packen\score\score\bin\Release\netcoreapp2.2\score.runtimeconfig.dev.json
+C:\Users\Mario Ramos\prueba\packen\score\score\bin\Release\netcoreapp2.2\score.dll
+C:\Users\Mario Ramos\prueba\packen\score\score\bin\Release\netcoreapp2.2\score.pdb
+C:\Users\Mario Ramos\prueba\packen\score\score\bin\Release\netcoreapp2.2\score.xml
+C:\Users\Mario Ramos\prueba\packen\score\score\obj\Release\netcoreapp2.2\score.csprojAssemblyReference.cache
+C:\Users\Mario Ramos\prueba\packen\score\score\obj\Release\netcoreapp2.2\score.csproj.CoreCompileInputs.cache
+C:\Users\Mario Ramos\prueba\packen\score\score\obj\Release\netcoreapp2.2\score.RazorAssemblyInfo.cache
+C:\Users\Mario Ramos\prueba\packen\score\score\obj\Release\netcoreapp2.2\score.RazorAssemblyInfo.cs
+C:\Users\Mario Ramos\prueba\packen\score\score\obj\Release\netcoreapp2.2\score.AssemblyInfoInputs.cache
+C:\Users\Mario Ramos\prueba\packen\score\score\obj\Release\netcoreapp2.2\score.AssemblyInfo.cs
+C:\Users\Mario Ramos\prueba\packen\score\score\obj\Release\netcoreapp2.2\score.RazorTargetAssemblyInfo.cache
+C:\Users\Mario Ramos\prueba\packen\score\score\obj\Release\netcoreapp2.2\score.dll
+C:\Users\Mario Ramos\prueba\packen\score\score\obj\Release\netcoreapp2.2\score.xml
+C:\Users\Mario Ramos\prueba\packen\score\score\obj\Release\netcoreapp2.2\score.pdb

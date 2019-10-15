@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>score</name>
+    </assembly>
+    <members>
+        <member name="T:score.Configuration.ApplicationBuilderExtensions">
+            <summary>
+            Extension methods for application builder
+            </summary>
+        </member>
+        <member name="M:score.Configuration.ApplicationBuilderExtensions.ConfigureSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Swagger endpoint configuration
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+        <member name="T:score.Configuration.Logging.LoggingConfig">
+            <summary>
+            Configure Logging
+            </summary>
+            
+        </member>
+        <member name="M:score.Configuration.Logging.LoggingConfig.ConfigureLogger(System.String)">
+            <summary>
+            Configures serilog
+            </summary>
+            <param name="applicationName">Name of the application that generates exception</param>
+            <returns>Serilog logger</returns>
+        </member>
+        <member name="T:score.Configuration.ServiceCollectionExtensions">
+            <summary>
+            Extension class for services configuration.  This methods must be called from Startup class.
+            </summary>
+        </member>
+        <member name="M:score.Configuration.ServiceCollectionExtensions.AddMySQLContext(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Configures MySQL context
+            </summary>
+            <param name="services">Class that implements IServiceCollection inteface</param>
+            <param name="Configuration">Class that implements IConfiguration inteface</param>
+            <returns>Class services</returns>
+        </member>
+        <member name="M:score.Configuration.ServiceCollectionExtensions.AddSwaggerConf(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configures Swagger 
+            </summary>
+            <param name="services">Class that implements IServiceCollection inteface</param>
+            <returns>Clas Services</returns>
+        </member>
+        <member name="M:score.Configuration.ServiceCollectionExtensions.AddMediator(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register mediator for CQRS implementation
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="T:score.Constants">
+            <summary>
+            Initialize constants for the application
+            </summary>
+        </member>
+        <member name="T:score.Constants.SwaggerConfiguration">
+            <summary>
+            Constants for swagger
+            </summary>
+        </member>
+        <member name="F:score.Constants.SwaggerConfiguration.Title">
+            <summary>
+            Title for swagger documentation endpoint
+            </summary>
+        </member>
+        <member name="F:score.Constants.SwaggerConfiguration.Description">
+            <summary>
+            Description 
+            </summary>
+        </member>
+        <member name="F:score.Constants.SwaggerConfiguration.ContactName">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

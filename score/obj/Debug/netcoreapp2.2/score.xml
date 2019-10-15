@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>score</name>
+    </assembly>
+    <members>
+        <member name="T:score.Configuration.ApplicationBuilderExtensions">
+            <summary>
+            Extension methods for application builder
+            </summary>
+        </member>
+        <member name="M:score.Configuration.ApplicationBuilderExtensions.ConfigureSwagger(Microsoft.AspNetCore.Builder.IApplicationBuilder)">
+            <summary>
+            Swagger endpoint configuration
+            </summary>
+            <param name="app"></param>
+            <returns></returns>
+        </member>
+        <member name="T:score.Configuration.AutoMapper.MappingProfile">
+            <summary>
+            Default profile for AutoMapper
+            </summary>
+        </member>
+        <member name="T:score.Configuration.Logging.LoggingConfig">
+            <summary>
+            Configure Logging
+            </summary>
+            
+        </member>
+        <member name="M:score.Configuration.Logging.LoggingConfig.ConfigureLogger(System.String)">
+            <summary>
+            Configures serilog
+            </summary>
+            <param name="applicationName">Name of the application that generates exception</param>
+            <returns>Serilog logger</returns>
+        </member>
+        <member name="T:score.Configuration.ServiceCollectionExtensions">
+            <summary>
+            Extension class for services configuration.  This methods must be called from Startup class.
+            </summary>
+        </member>
+        <member name="M:score.Configuration.ServiceCollectionExtensions.AddMySQLContext(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Configures MySQL context
+            </summary>
+            <param name="services">Class that implements IServiceCollection inteface</param>
+            <param name="Configuration">Class that implements IConfiguration inteface</param>
+            <returns>Class services</returns>
+        </member>
+        <member name="M:score.Configuration.ServiceCollectionExtensions.AddSwaggerConf(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Configures Swagger 
+            </summary>
+            <param name="services">Class that implements IServiceCollection inteface</param>
+            <returns>Class Services</returns>
+        </member>
+        <member name="M:score.Configuration.ServiceCollectionExtensions.AddMediator(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register mediator for CQRS implementation
+            </summary>
+            <param name="services">Class that implements IServiceCollection inteface</param>
+            <returns>Class Services</returns>
+        </member>
+        <member name="M:score.Configuration.ServiceCollectionExtensions.AddCustomServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register custom services for the application
+            </summary>
+            <param name="services">Class that implements IServiceCollection inteface</param>
+            <returns>Class Services</returns>
+        </member>
+        <member name="M:score.Configuration.ServiceCollectionExtensions.AddAutomapperConf(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Register configuration for MAPPER package
+            </summary>
+            <param name="services">Class that implements IServiceCollection inteface</param>
+            <returns>Class Services</returns>
+        </member>
+        <member name="T:score.Constants">
+            <summary>
+            Initialize constants for the application
+            </summary>
+        </member>
+        <member name="T:score.Constants.SwaggerConfiguration">
+            <summary>
+            Constants for swagger
+            </summary>
+        </member>
+        <member name="F:score.Constants.SwaggerConfiguration.Title">
+            <summary>
+            Title for swagger documentation endpoint
+            </summary>
+        </member>
+        <member name="F:score.Constants.SwaggerConfiguration.Description">
+            <summary>
+            Description 
+            </summary>
+        </member>
+        <member name="F:score.Constants.SwaggerConfiguration.ContactName">
+            <summary>
+            Contact Name
+            </summary>
+        </member>
+        <member name="F:score.Constants.SwaggerConfiguration.ContactEmail">
+            <summary>
+            Contact Email
+            </summary>
+        </member>
+        <member name="F:score.Constants.SwaggerConfiguration.ContactUrl">
+            <summary>
+            Contact URL
+            </summary>
+        </member>
+        <member name="T:score.Constants.AppConfiguration">
+            <summary>
+            Configuration values for the application
+            </summary>
+        </member>
+        <member name="F:score.Constants.AppConfiguration.ValidValues">
+            <summary>
+            Array with valid characters for input string
+            </summary>
+        </member>
+        <member name="M:score.Constants.AppConfiguration.getCharacterValue(System.String)">
+            <summary>
+            Static function that returns numeric values
+            </summary>
+            <param name="character">String that represents an attempt or a ball in the game</param>
+            <returns>Numeric value</returns>
+        </member>
+        <member name="T:score.Controllers.AutenticationController">
+            <summary>
+            Controller for User Login
+            </summary>
+        </member>
+        <member name="M:score.Controllers.AutenticationController.UserLogin(score.Domain.Autentication.Login.LoginCommand)">
+            <summary>
+            Enpoint for authorization token. 
+            </summary>
+            <param name="command">Class that contains fields for user validation</param>
+            <returns>Objetct with token</returns>
+            <response code="200">Object with a valid token</response>
+            <response code="400">Input string error</response>
+            <response code="500">Error generated by application</response>
+        </member>
+        <member name="T:score.Controllers.BowlingScoreController">
+            <summary>
+            Controller for calculate final score  of a game 
+            </summary>
+        </member>
+        <member name="M:score.Controllers.BowlingScoreController.CalculateScore(score.Domain.Score.Commands.CalculateScoreCommand)">
+            <summary>
+            Calculate score for bowling game to anonymous users
+            </summary>
+            <param name="command">String with the rolls sequence</param>
+            <returns>Object that contains final score of the game</returns>
+            <response code="200">Object that contains final score of the game</response>
+            <response code="400">Input string error</response>
+            <response code="500">Error generated by application</response>
+        </member>
+        <member name="M:score.Controllers.BowlingScoreController.CalculateUser(score.Domain.Score.Commands.CalculateScoreCommand)">
+            <summary>
+            Calculate score for bowling game to logged users
+            </summary>
+            <param name="command">String with the rolls sequence</param>
+            <returns>Object that contains final score of the game</returns>
+            <response code="200">Object that contains final score of the game</response>
+            <response code="400">Input string error</response>
+            <response code="401">Invalid token - User not authorized</response>
+            <response code="500">Error generated by application</response>
+        </member>
+        <member name="M:score.Controllers.BowlingScoreController.GetTopGames(score.Domain.Score.Queries.GetTopGamesQuery)">
+            <summary>
+            List with the best rated games (Logged Users)
+            </summary>
+            <param name="command">Numeber of rows returned</param>
+            <returns>List of games with input string sequence and final score</returns>
+            <response code="200">List of games with input string sequence and final score</response>
+            <response code="400">Input string error</response>
+            <response code="401">Invalid token - User not authorized</response>
+            <response code="500">Error generated by application</response>
+        </member>
+        <member name="T:score.Data.ApplicationContext">
+            <summary>
+            Class for Entity Framework configuration
+            </summary>
+        </member>
+        <member name="T:score.Data.Entities.User">
+            <summary>
+            Table users
+            </summary>
+        </member>
+        <member name="T:score.Data.Entities.UserGame">
+            <summary>
+            Table for user games
+            </summary>
+        </member>
+        <member name="T:score.Data.Entities.UserTokens">
+            <summary>
+            Table for management of the user tokens
+            </summary>
+        </member>
+        <member name="T:score.Domain.Autentication.Login.LoginCommand">
+            <summary>
+            Class with the necessary fields for user validation
+            </summary>
+        </member>
+        <member name="T:score.Domain.Autentication.Login.LoginCommandHandler">
+            <summary>
+            This class handles the procces for users loggin and registers tokens in database
+            </summary>
+        </member>
+        <member name="T:score.Domain.Score.Commands.CaculateScoreCommandHandler">
+            <summary>
+            This class creates the object that calculate the escore for the bowling game 
+            and registers the result in databse (only for logged users)
+            </summary>
+        </member>
+        <member name="T:score.Domain.Score.Commands.CalculateScoreCommand">
+            <summary>
+            Class with necessary field for calculate game score
+            </summary>
+        </member>
+        <member name="T:score.Domain.Score.Queries.GetTopGamesHandler">
+            <summary>
+            Class that processes the list of the top rated games for the logged users
+            </summary>
+        </member>
+        <member name="T:score.Domain.Score.Queries.GetTopGamesQuery">
+            <summary>
+            Number or rows returned by the web service
+            </summary>
+        </member>
+        <member name="T:score.Dto.UserDto">
+            <summary>
+            DTO for reading users
+            </summary>
+        </member>
+        <member name="T:score.Dto.UserGameDto">
+            <summary>
+            Dto for users games
+            </summary>
+        </member>
+        <member name="T:score.Dto.UserTokensDto">
+            <summary>
+            Dto for users tokens
+            </summary>
+        </member>
+        <member name="T:score.Infrastructure.CommandResult">
+            <summary>
+            Standart object for commands responses
+            </summary>
+        </member>
+        <member name="T:score.Infrastructure.JwtActionFilter">
+            <summary>
+            This class detects token in the header request and verifies the token and the user 
+            </summary>
+        </member>
+        <member name="T:score.Infrastructure.QueryResult">
+            <summary>
+            Standart object for query responses
+            </summary>
+        </member>
+        <member name="T:score.Model.Frame">
+            <summary>
+            This class represents each frame of the bowlig game
+            </summary>
+        </member>
+        <member name="P:score.Model.Frame.FirstBall">
+            <summary>
+            First try for the player 
+            </summary>
+        </member>
+        <member name="P:score.Model.Frame.SecondBall">
+            <summary>
+            Second try for the player
+            </summary>
+        </member>
+        <member name="P:score.Model.Frame.LastFrame">
+            <summary>
+            Boolean indicating that is the las frame of the player
+            </summary>
+        </member>
+        <member name="P:score.Model.Frame.LastFrameBonusBall">
+            <summary>
+            Third try for the gamer. Only for the last frame
+            </summary>
+        </member>
+        <member name="P:score.Model.Frame.FrameScore">
+            <summary>
+            Sum of first, second and third ball
+            </summary>
+        </member>
+        <member name="P:score.Model.Frame.NextBallsBonusScore">
+            <summary>
+            Total bonus if the player made a spare or a strike
+            </summary>
+        </member>
+        <member name="P:score.Model.Frame.AcumulatedScore">
+            <summary>
+            Acumulated Score
+            </summary>
+        </member>
+        <member name="P:score.Model.Frame.Completed">
+            <summary>
+            Inidicates if the frame is completed 
+            </summary>
+        </member>
+        <member name="M:score.Model.Frame.IsCompleted">
+            <summary>
+            Inidicates if the frame is completed 
+            </summary>
+            <returns> True or false depending if the frame is completed or not</returns>
+        </member>
+        <member name="M:score.Model.Frame.Assign(System.Char)">
+            <summary>
+            This method assigns the value for the first or the second try on each frame.
+            </summary>
+            <param name="value">Charatecter thar represents the score of the try</param>
+        </member>
+        <member name="M:score.Model.Frame.AssignFirstTry(System.Char)">
+            <summary>
+            This method saves the first try of the player
+            </summary>
+            <param name="value">Charatecter thar represents the score of the first try</param>
+        </member>
+        <member name="M:score.Model.Frame.AssignSecondTry(System.Char)">
+            <summary>
+            This method saves the second try of the player
+            </summary>
+            <param name="value">Charatecter thar represents the score of the second try</param>
+        </member>
+        <member name="M:score.Model.Frame.AssignLastTryBonus(System.Char)">
+            <summary>
+            Assings the third try in the last frame (when it applies)
+            </summary>
+            <param name="value">Charatecter thar represents the score of the third try on last frame</param>
+        </member>
+        <member name="M:score.Model.Frame.CalculateFrameValue">
+            <summary>
+            Calculate score on each frame
+            </summary>
+        </member>
+        <member name="T:score.Model.RollSequence">
+            <summary>
+            Class that represents the rolls sequence given by user
+            </summary>
+        </member>
+        <member name="F:score.Model.RollSequence.originalSequence">
+            <summary>
+            Secuence original
+            </summary>
+        </member>
+        <member name="F:score.Model.RollSequence.validSequence">
+            <summary>
+            Sequence without invalid characters
+            </summary>
+        </member>
+        <member name="F:score.Model.RollSequence.Line">
+            <summary>
+            This list represens the complete game with the ten frames
+            </summary>
+        </member>
+        <member name="F:score.Model.RollSequence.LineCompleted">
+            <summary>
+            Indicates that the line is completed
+            </summary>
+        </member>
+        <member name="M:score.Model.RollSequence.#ctor(System.String)">
+            <summary>
+            Constructor for the class. 
+            </summary>
+            <param name="rollSequence">String whit the sequence of the rolls</param>
+        </member>
+        <member name="M:score.Model.RollSequence.AssignValues">
+            <summary>
+            Method for assign values on first or second try on each frame
+            </summary>
+        </member>
+        <member name="M:score.Model.RollSequence.CalculateFrameBonus">
+            <summary>
+            This method calculates the bonus for each frame depending if the player made a strike or a spare
+            </summary>
+        </member>
+        <member name="M:score.Model.RollSequence.calculateAcumulatedScore">
+            <summary>
+            Calculate the acumalted score for each frame
+            </summary>
+        </member>
+        <member name="M:score.Model.RollSequence.getLine">
+            <summary>
+            List whith the frames of the game
+            </summary>
+            <returns>List whith the frames of the game</returns>
+        </member>
+        <member name="M:score.Model.RollSequence.getFinalScore">
+            <summary>
+            Returns the final score for the game
+            </summary>
+            <returns>Integer with the final score for the game</returns>
+        </member>
+        <member name="T:score.Services.RequestData.IRequestData">
+            <summary>
+            Interface that defines methods for <ref>RequestData</ref> object
+            </summary>
+        </member>
+        <member name="T:score.Services.RequestData.RequestData">
+            <summary>
+            Implementation of IRequestData Interface
+            </summary>
+        </member>
+        <member name="T:score.Services.SecurityService.ISecurityService">
+            <summary>
+            Interface that defines methods for security service
+            </summary>
+        </member>
+        <member name="M:score.Services.SecurityService.ISecurityService.CreateDefaultUser">
+            <summary>
+            Creates default user for the application (user:test, password: test)
+            </summary>
+        </member>
+        <member name="M:score.Services.SecurityService.ISecurityService.VerifiedPassword(System.String,System.Byte[],System.Byte[])">
+            <summary>
+            Verifies if the password is valid
+            </summary>
+            <param name="clave">Password</param>
+            <param name="claveBd">Array of bytes with the encripted password</param>
+            <param name="salt">Salt for password encription</param>
+            <returns>True or false if password is valid or not</returns>
+        </member>
+        <member name="M:score.Services.SecurityService.ISecurityService.getToken(score.Dto.UserDto)">
+            <summary>
+            Generates a neu token for the user
+            </summary>
+            <param name="userDto">Object with user information</param>
+            <returns>Valid token</returns>
+        </member>
+        <member name="M:score.Services.SecurityService.ISecurityService.ValidToken(System.String)">
+            <summary>
+            Validate token
+            </summary>
+            <param name="token">Token</param>
+            <returns>True or false</returns>
+        </member>
+        <member name="M:score.Services.SecurityService.ISecurityService.getClaim(System.String,System.String,System.String@)">
+            <summary>
+            Return value of claims
+            </summary>
+            <param name="token"></param>
+            <param name="claim"></param>
+            <param name="value"></param>
+        </member>
+        <member name="T:score.Services.SecurityService.SecurityService">
+            <summary>
+            Class that implements ISecurityService interface
+            </summary>
+        </member>
+        <member name="T:score.Services.UserService.IUserService">
+            <summary>
+            Interface that defines methods for user service
+            </summary>
+        </member>
+    </members>
+</doc>

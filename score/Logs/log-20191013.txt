@@ -1,0 +1,225 @@
+2019-10-13 18:56:58.573 -05:00 [INF] Application Started
+2019-10-13 18:56:59.833 -05:00 [INF] Application Context added
+2019-10-13 18:56:59.835 -05:00 [INF] Swagger configured
+2019-10-13 18:57:00.477 -05:00 [INF] Swagger Ready
+2019-10-13 18:59:43.951 -05:00 [INF] Application Started
+2019-10-13 18:59:45.765 -05:00 [INF] Application Context added
+2019-10-13 18:59:45.767 -05:00 [INF] Swagger configured
+2019-10-13 18:59:46.514 -05:00 [INF] Swagger Ready
+2019-10-13 19:00:24.839 -05:00 [INF] Application Started
+2019-10-13 19:00:26.664 -05:00 [INF] Application Context added
+2019-10-13 19:00:26.666 -05:00 [INF] Swagger configured
+2019-10-13 19:00:27.293 -05:00 [INF] Swagger Ready
+2019-10-13 19:01:10.861 -05:00 [INF] Application Started
+2019-10-13 19:01:11.757 -05:00 [INF] Application Context added
+2019-10-13 19:01:11.758 -05:00 [INF] Swagger configured
+2019-10-13 19:01:12.246 -05:00 [INF] Swagger Ready
+2019-10-13 19:01:49.212 -05:00 [INF] Application Started
+2019-10-13 19:01:51.052 -05:00 [INF] Application Context added
+2019-10-13 19:01:51.055 -05:00 [INF] Swagger configured
+2019-10-13 19:01:51.788 -05:00 [INF] Swagger Ready
+2019-10-13 19:03:31.733 -05:00 [INF] Application Started
+2019-10-13 19:03:33.905 -05:00 [INF] Application Context added
+2019-10-13 19:03:33.913 -05:00 [INF] Swagger configured
+2019-10-13 19:03:34.655 -05:00 [INF] Swagger Ready
+2019-10-13 19:07:51.670 -05:00 [INF] Application Started
+2019-10-13 19:07:53.553 -05:00 [INF] Application Context added
+2019-10-13 19:07:53.555 -05:00 [INF] Swagger configured
+2019-10-13 19:07:54.312 -05:00 [INF] Swagger Ready
+2019-10-13 19:08:53.063 -05:00 [INF] Application Started
+2019-10-13 19:08:54.400 -05:00 [INF] Application Context added
+2019-10-13 19:08:54.402 -05:00 [INF] Swagger configured
+2019-10-13 19:08:55.371 -05:00 [INF] Swagger Ready
+2019-10-13 19:15:51.557 -05:00 [INF] Application Started
+2019-10-13 19:15:53.866 -05:00 [INF] Application Context added
+2019-10-13 19:15:53.869 -05:00 [INF] Swagger configured
+2019-10-13 19:15:54.567 -05:00 [INF] Swagger Ready
+2019-10-13 19:17:15.506 -05:00 [INF] Application Started
+2019-10-13 19:17:17.557 -05:00 [INF] Application Context added
+2019-10-13 19:17:17.560 -05:00 [INF] Swagger configured
+2019-10-13 19:17:18.342 -05:00 [INF] Swagger Ready
+2019-10-13 19:43:53.365 -05:00 [INF] Application Started
+2019-10-13 19:43:54.467 -05:00 [INF] Application Context added
+2019-10-13 19:43:54.470 -05:00 [INF] Swagger configured
+2019-10-13 19:43:54.929 -05:00 [INF] Swagger Ready
+2019-10-13 19:45:38.809 -05:00 [INF] Application Started
+2019-10-13 19:45:40.416 -05:00 [INF] Application Context added
+2019-10-13 19:45:40.421 -05:00 [INF] Swagger configured
+2019-10-13 19:45:41.353 -05:00 [INF] Swagger Ready
+2019-10-13 19:47:56.242 -05:00 [INF] Processing Input string : 5/5/17128107X240/36
+2019-10-13 19:48:36.140 -05:00 [INF] Application Started
+2019-10-13 19:48:37.079 -05:00 [INF] Application Context added
+2019-10-13 19:48:37.082 -05:00 [INF] Swagger configured
+2019-10-13 19:48:37.582 -05:00 [INF] Swagger Ready
+2019-10-13 19:50:24.563 -05:00 [INF] Application Started
+2019-10-13 19:50:25.795 -05:00 [INF] Application Context added
+2019-10-13 19:50:25.797 -05:00 [INF] Swagger configured
+2019-10-13 19:50:26.523 -05:00 [INF] Swagger Ready
+2019-10-13 19:50:38.920 -05:00 [INF] Processing Input string : 5/5/17128107X240/36
+2019-10-13 19:51:23.980 -05:00 [INF] Processing Input string : 5/5/17128107X240/36
+2019-10-13 19:53:43.205 -05:00 [INF] Application Started
+2019-10-13 19:53:44.398 -05:00 [INF] Application Context added
+2019-10-13 19:53:44.401 -05:00 [INF] Swagger configured
+2019-10-13 19:53:45.086 -05:00 [INF] Swagger Ready
+2019-10-13 19:54:24.748 -05:00 [INF] Processing Input string : 5/5/17128107X240/36
+2019-10-13 20:27:00.259 -05:00 [INF] Application Started
+2019-10-13 20:27:01.442 -05:00 [INF] Application Context added
+2019-10-13 20:27:01.444 -05:00 [INF] Swagger configured
+2019-10-13 20:27:02.318 -05:00 [INF] Swagger Ready
+2019-10-13 20:27:29.693 -05:00 [INF] Processing Input string : 5/5/17128107X240/36
+2019-10-13 20:28:24.492 -05:00 [INF] Application Started
+2019-10-13 20:28:25.897 -05:00 [INF] Application Context added
+2019-10-13 20:28:25.899 -05:00 [INF] Swagger configured
+2019-10-13 20:28:26.767 -05:00 [INF] Swagger Ready
+2019-10-13 20:28:41.638 -05:00 [INF] Processing Input string : 5/5/17128107X240/36
+2019-10-13 20:29:20.579 -05:00 [INF] Application Started
+2019-10-13 20:29:21.913 -05:00 [INF] Application Context added
+2019-10-13 20:29:21.914 -05:00 [INF] Swagger configured
+2019-10-13 20:29:22.566 -05:00 [INF] Swagger Ready
+2019-10-13 20:29:45.244 -05:00 [INF] Processing Input string : 5/5/17128107X240/36
+2019-10-13 20:30:14.984 -05:00 [INF] Processing Input string : 5/5/17128107X240/36
+2019-10-13 20:31:17.339 -05:00 [INF] Application Started
+2019-10-13 20:31:18.561 -05:00 [INF] Application Context added
+2019-10-13 20:31:18.563 -05:00 [INF] Swagger configured
+2019-10-13 20:31:19.229 -05:00 [INF] Swagger Ready
+2019-10-13 20:31:38.584 -05:00 [INF] Processing Input string : 5/5/17128107X240/36
+2019-10-13 20:33:37.487 -05:00 [INF] Application Started
+2019-10-13 20:33:38.548 -05:00 [INF] Application Context added
+2019-10-13 20:33:38.551 -05:00 [INF] Swagger configured
+2019-10-13 20:33:39.172 -05:00 [INF] Swagger Ready
+2019-10-13 20:33:48.815 -05:00 [INF] Processing Input string : 5/5/17128107X24-/36
+2019-10-13 20:38:59.849 -05:00 [INF] Application Started
+2019-10-13 20:39:01.357 -05:00 [INF] Application Context added
+2019-10-13 20:39:01.359 -05:00 [INF] Swagger configured
+2019-10-13 20:39:02.274 -05:00 [INF] Swagger Ready
+2019-10-13 20:45:07.326 -05:00 [INF] Application Started
+2019-10-13 20:45:08.649 -05:00 [INF] Application Context added
+2019-10-13 20:45:08.651 -05:00 [INF] Swagger configured
+2019-10-13 20:45:09.284 -05:00 [INF] Swagger Ready
+2019-10-13 20:55:50.321 -05:00 [INF] Application Started
+2019-10-13 20:55:51.466 -05:00 [INF] Application Context added
+2019-10-13 20:55:51.471 -05:00 [INF] Swagger configured
+2019-10-13 20:55:52.084 -05:00 [INF] Swagger Ready
+2019-10-13 20:56:09.090 -05:00 [INF] Processing Input string : 5/5/17128107X24-/36
+2019-10-13 20:59:07.745 -05:00 [INF] Application Started
+2019-10-13 20:59:08.842 -05:00 [INF] Application Context added
+2019-10-13 20:59:08.843 -05:00 [INF] Swagger configured
+2019-10-13 20:59:09.535 -05:00 [INF] Swagger Ready
+2019-10-13 20:59:27.475 -05:00 [INF] Processing Input string : 5/5/17128107X24-/36
+2019-10-13 21:00:13.387 -05:00 [INF] Application Started
+2019-10-13 21:00:14.425 -05:00 [INF] Application Context added
+2019-10-13 21:00:14.427 -05:00 [INF] Swagger configured
+2019-10-13 21:00:15.105 -05:00 [INF] Swagger Ready
+2019-10-13 21:03:51.451 -05:00 [INF] Processing Input string : 5/5/17128107X24-/36
+2019-10-13 21:04:33.727 -05:00 [INF] Application Started
+2019-10-13 21:04:34.851 -05:00 [INF] Application Context added
+2019-10-13 21:04:34.853 -05:00 [INF] Swagger configured
+2019-10-13 21:04:35.490 -05:00 [INF] Swagger Ready
+2019-10-13 21:05:06.697 -05:00 [INF] Application Started
+2019-10-13 21:05:07.870 -05:00 [INF] Application Context added
+2019-10-13 21:05:07.872 -05:00 [INF] Swagger configured
+2019-10-13 21:05:08.393 -05:00 [INF] Swagger Ready
+2019-10-13 21:05:38.783 -05:00 [INF] Application Started
+2019-10-13 21:05:40.102 -05:00 [INF] Application Context added
+2019-10-13 21:05:40.104 -05:00 [INF] Swagger configured
+2019-10-13 21:05:40.931 -05:00 [INF] Swagger Ready
+2019-10-13 21:05:58.734 -05:00 [INF] Processing Input string : 5/5/17128107X24-/36
+2019-10-13 21:06:47.104 -05:00 [INF] Application Started
+2019-10-13 21:06:48.419 -05:00 [INF] Application Context added
+2019-10-13 21:06:48.421 -05:00 [INF] Swagger configured
+2019-10-13 21:06:49.146 -05:00 [INF] Swagger Ready
+2019-10-13 21:06:59.656 -05:00 [INF] Processing Input string : 5/5/17128107X24-/36
+2019-10-13 21:07:48.672 -05:00 [INF] Application Started
+2019-10-13 21:07:49.481 -05:00 [INF] Application Context added
+2019-10-13 21:07:49.484 -05:00 [INF] Swagger configured
+2019-10-13 21:07:49.933 -05:00 [INF] Swagger Ready
+2019-10-13 21:08:03.215 -05:00 [INF] Processing Input string : 5/5/17128107X24-/36
+2019-10-13 21:59:56.502 -05:00 [INF] Application Started
+2019-10-13 21:59:57.797 -05:00 [INF] Application Context added
+2019-10-13 21:59:57.799 -05:00 [INF] Swagger configured
+2019-10-13 21:59:58.477 -05:00 [INF] Swagger Ready
+2019-10-13 22:00:11.857 -05:00 [INF] Processing Input string : 5/5/17128107X24-/36
+2019-10-13 22:03:17.575 -05:00 [INF] Processing Input string : 5/5/171281-7X24-/36
+2019-10-13 22:08:55.623 -05:00 [INF] Application Started
+2019-10-13 22:08:56.799 -05:00 [INF] Application Context added
+2019-10-13 22:08:56.801 -05:00 [INF] Swagger configured
+2019-10-13 22:08:57.266 -05:00 [INF] Swagger Ready
+2019-10-13 22:10:29.113 -05:00 [INF] Processing Input string : 5/5/5/5/0/1/2/3/X11
+2019-10-13 22:10:56.189 -05:00 [INF] Processing Input string : 5/5/5/5/0/1/2/3/X11
+2019-10-13 22:11:24.742 -05:00 [INF] Processing Input string : 5/5/5/5/0/1/2/3/X11
+2019-10-13 22:13:08.609 -05:00 [INF] Application Started
+2019-10-13 22:13:09.647 -05:00 [INF] Application Context added
+2019-10-13 22:13:09.648 -05:00 [INF] Swagger configured
+2019-10-13 22:13:10.330 -05:00 [INF] Swagger Ready
+2019-10-13 22:13:30.922 -05:00 [INF] Processing Input string : 5/5/5/5/0/1/2/3/X11
+2019-10-13 22:13:43.001 -05:00 [INF] Processing Input string : 5/5/5/5/-/1/2/3/X11
+2019-10-13 22:18:56.035 -05:00 [INF] Application Started
+2019-10-13 22:18:57.218 -05:00 [INF] Application Context added
+2019-10-13 22:18:57.220 -05:00 [INF] Swagger configured
+2019-10-13 22:18:57.894 -05:00 [INF] Swagger Ready
+2019-10-13 22:19:11.136 -05:00 [INF] Processing Input string : 5/5/5/5/0/1/2/3/X11
+2019-10-13 22:20:01.941 -05:00 [INF] Processing Input string : 5/5/5/5/-/1/2/3/X11
+2019-10-13 22:20:46.750 -05:00 [INF] Application Started
+2019-10-13 22:20:47.929 -05:00 [INF] Application Context added
+2019-10-13 22:20:47.931 -05:00 [INF] Swagger configured
+2019-10-13 22:20:48.596 -05:00 [INF] Swagger Ready
+2019-10-13 22:21:07.454 -05:00 [INF] Processing Input string : 5/5/5/5/-/1/2/3/X11
+2019-10-13 22:37:44.220 -05:00 [INF] Application Started
+2019-10-13 22:37:45.295 -05:00 [INF] Application Context added
+2019-10-13 22:37:45.297 -05:00 [INF] Swagger configured
+2019-10-13 22:37:46.009 -05:00 [INF] Swagger Ready
+2019-10-13 22:37:57.452 -05:00 [INF] Processing Input string : XXXXXXXXX44
+2019-10-13 22:39:03.209 -05:00 [INF] Application Started
+2019-10-13 22:39:04.044 -05:00 [INF] Application Context added
+2019-10-13 22:39:04.046 -05:00 [INF] Swagger configured
+2019-10-13 22:39:04.514 -05:00 [INF] Swagger Ready
+2019-10-13 22:39:24.266 -05:00 [INF] Processing Input string : XXXXXXXXX4411
+2019-10-13 22:39:50.507 -05:00 [INF] Processing Input string : XXXXXXXXX44
+2019-10-13 22:42:56.255 -05:00 [INF] Application Started
+2019-10-13 22:42:57.223 -05:00 [INF] Application Context added
+2019-10-13 22:42:57.225 -05:00 [INF] Swagger configured
+2019-10-13 22:42:57.786 -05:00 [INF] Swagger Ready
+2019-10-13 22:43:13.499 -05:00 [INF] Processing Input string : string
+2019-10-13 22:43:28.552 -05:00 [INF] Processing Input string : XXXXXXXXX4411
+2019-10-13 22:43:48.423 -05:00 [INF] Processing Input string : XXXXXXXXX44
+2019-10-13 22:44:02.994 -05:00 [INF] Processing Input string : XXXXXXXXX4/1
+2019-10-13 22:45:14.202 -05:00 [INF] Processing Input string : XXXXXXXXX4/1
+2019-10-13 22:46:19.189 -05:00 [INF] Processing Input string : XXXXXXXXX4/1
+2019-10-13 22:47:14.308 -05:00 [INF] Application Started
+2019-10-13 22:47:15.733 -05:00 [INF] Application Context added
+2019-10-13 22:47:15.738 -05:00 [INF] Swagger configured
+2019-10-13 22:47:16.498 -05:00 [INF] Swagger Ready
+2019-10-13 22:47:33.126 -05:00 [INF] Processing Input string : XXXXXXXXX4411
+2019-10-13 22:48:10.793 -05:00 [INF] Processing Input string : XXXXXXXXX4/11
+2019-10-13 22:48:37.093 -05:00 [INF] Processing Input string : XXXXXXXXX4/11
+2019-10-13 22:50:08.691 -05:00 [INF] Application Started
+2019-10-13 22:50:10.015 -05:00 [INF] Application Context added
+2019-10-13 22:50:10.017 -05:00 [INF] Swagger configured
+2019-10-13 22:50:10.721 -05:00 [INF] Swagger Ready
+2019-10-13 22:50:30.692 -05:00 [INF] Processing Input string : XXXXXXXXX4/11
+2019-10-13 22:50:53.717 -05:00 [INF] Processing Input string : XXXXXXXXX4/11
+2019-10-13 22:53:19.398 -05:00 [INF] Application Started
+2019-10-13 22:53:20.329 -05:00 [INF] Application Context added
+2019-10-13 22:53:20.332 -05:00 [INF] Swagger configured
+2019-10-13 22:53:20.849 -05:00 [INF] Swagger Ready
+2019-10-13 22:53:55.269 -05:00 [INF] Application Started
+2019-10-13 22:53:56.592 -05:00 [INF] Application Context added
+2019-10-13 22:53:56.594 -05:00 [INF] Swagger configured
+2019-10-13 22:53:57.302 -05:00 [INF] Swagger Ready
+2019-10-13 22:54:29.100 -05:00 [INF] Processing Input string : XXXXXXXXX4411
+2019-10-13 22:54:56.080 -05:00 [INF] Application Started
+2019-10-13 22:54:57.390 -05:00 [INF] Application Context added
+2019-10-13 22:54:57.392 -05:00 [INF] Swagger configured
+2019-10-13 22:54:58.041 -05:00 [INF] Swagger Ready
+2019-10-13 22:55:15.183 -05:00 [INF] Processing Input string : XXXXXXXXX4/11
+2019-10-13 22:59:38.479 -05:00 [INF] Processing Input string : XXXXXXXXXXXX
+2019-10-13 23:44:52.998 -05:00 [INF] Application Started
+2019-10-13 23:44:54.790 -05:00 [INF] Application Context added
+2019-10-13 23:44:54.794 -05:00 [INF] Swagger configured
+2019-10-13 23:44:55.714 -05:00 [INF] Swagger Ready
+2019-10-13 23:45:16.892 -05:00 [INF] Processing Input string : XXXXXXXXXXXX
+2019-10-13 23:46:17.438 -05:00 [INF] Application Started
+2019-10-13 23:46:18.722 -05:00 [INF] Application Context added
+2019-10-13 23:46:18.724 -05:00 [INF] Swagger configured
+2019-10-13 23:46:19.392 -05:00 [INF] Swagger Ready
+2019-10-13 23:46:30.511 -05:00 [INF] Processing Input string : XXXXXXXXXXXX

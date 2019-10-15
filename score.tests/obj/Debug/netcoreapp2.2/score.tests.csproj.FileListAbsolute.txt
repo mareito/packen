@@ -1,0 +1,11 @@
+C:\Users\Mario Ramos\prueba\packen\score\score.tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Mario Ramos\prueba\packen\score\score.tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Mario Ramos\prueba\packen\score\score.tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Mario Ramos\prueba\packen\score\score.tests\bin\Debug\netcoreapp2.2\score.tests.deps.json
+C:\Users\Mario Ramos\prueba\packen\score\score.tests\bin\Debug\netcoreapp2.2\score.tests.runtimeconfig.json
+C:\Users\Mario Ramos\prueba\packen\score\score.tests\bin\Debug\netcoreapp2.2\score.tests.runtimeconfig.dev.json
+C:\Users\Mario Ramos\prueba\packen\score\score.tests\bin\Debug\netcoreapp2.2\score.tests.dll
+C:\Users\Mario Ramos\prueba\packen\score\score.tests\obj\Debug\netcoreapp2.2\score.tests.csprojAssemblyReference.cache
+C:\Users\Mario Ramos\prueba\packen\score\score.tests\obj\Debug\netcoreapp2.2\score.tests.csproj.CoreCompileInputs.cache
+C:\Users\Mario Ramos\prueba\packen\score\score.tests\obj\Debug\netcoreapp2.2\score.tests.AssemblyInfoInputs.cache
+C:\Users\Mario Ramos\prueba\packen\score\score.tests\obj\Debug\netcoreapp2.2\score.tests.AssemblyInfo.cs
